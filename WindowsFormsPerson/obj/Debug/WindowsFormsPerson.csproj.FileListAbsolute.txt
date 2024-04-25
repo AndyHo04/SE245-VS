@@ -1,0 +1,10 @@
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\bin\Debug\WindowsFormsPerson.exe.config
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\bin\Debug\WindowsFormsPerson.exe
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\bin\Debug\WindowsFormsPerson.pdb
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\obj\Debug\WindowsFormsPerson.csproj.AssemblyReference.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\obj\Debug\WindowsFormsPerson.Form1.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\obj\Debug\WindowsFormsPerson.Properties.Resources.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\obj\Debug\WindowsFormsPerson.csproj.GenerateResource.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\obj\Debug\WindowsFormsPerson.csproj.CoreCompileInputs.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\obj\Debug\WindowsFormsPerson.exe
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsPerson\obj\Debug\WindowsFormsPerson.pdb
