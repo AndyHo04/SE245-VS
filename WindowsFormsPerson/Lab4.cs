@@ -19,15 +19,18 @@ modify class data if the order entry data is valid.
 */
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.IO.Compression;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Win32.SafeHandles;
+using static System.Windows.Forms.AxHost;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace WindowsFormsPerson{
-        //Create the person class
+        //Create the validation library
         class ValidationLibrary{
             //check to see if the strings are filled
             public static bool IsFilled(string strValue){
@@ -49,23 +52,22 @@ namespace WindowsFormsPerson{
                 //check for period index
                 int periodLocation = strEmail.LastIndexOf(".");
 
-                //check for min email length
-                if (strEmail.Length < 8){
+                if (strEmail.Length < 8)
+                {
                     blnResult = false;
-                   
                 }
-                else if (atLocation < 2){
+                else if (atLocation < 2)
+                {
                     blnResult = false;
-                   
+                }
+                else if (periodLocation + 2 > (strEmail.Length))
+                {
+                    blnResult = false;
+                }
+                else if (atNextLocation > -1)
+                {
+                    blnResult = false;
                 }   
-                else if (periodLocation + 2 > (strEmail.Length)){
-                    blnResult = false;
-                   
-                }
-                else if (atNextLocation > -1){
-                    blnResult = false;
-                    
-                }
                 return blnResult;
             }
             //check for valid phone number
@@ -73,7 +75,7 @@ namespace WindowsFormsPerson{
                 bool blnResult;
                 int index = strPhone.IndexOf("-");
                 //check for min phone length
-                if ((strPhone.Length < 12) && (index == 3) && (strPhone[3] == '-') && (strPhone[7] == '-')){
+                if ((strPhone.Length <= 12) && (index == 3) && (strPhone[3] == '-') && (strPhone[7] == '-')){
                     blnResult = true;
                 }
                 else{
@@ -93,8 +95,99 @@ namespace WindowsFormsPerson{
                 }
                 return blnResult;
             }
+            public static bool IsValidState(string strState)
+            {
+                bool blnResult;
+                //check for state length
+                if (strState.Length == 2)
+                {
+                    blnResult = true;
+                }
+                else
+                {
+                    blnResult = false;
+                }
+                return blnResult;
+            }
+            public static bool IsValidInstagram(string strInstagram)
+            {
+                bool blnResult = true;
+                // check for period and slash location
+                int periodlocation = strInstagram.IndexOf('.');
+                int slashlocation = strInstagram.IndexOf("/");
+                //check for min instagram length
+
+                if (strInstagram.Length < 12)
+                {
+                    blnResult = false;
+                }
+                else if (periodlocation < 2)
+                {
+                    blnResult = false;
+                }
+                else if (slashlocation < 2)
+                {
+                    blnResult = false;
+                }
+                
+                
+                return blnResult;   
+            }
+            public static bool IsAPastDate (DateTime dtDate)
+            {
+                bool blnResult;
+                if (dtDate <= DateTime.Now)
+                {
+                    blnResult = true;
+                }
+                else
+                {
+                    blnResult = false;
+                }
+                return blnResult;
+            }
+            public static bool IsAMinimumAmountInt (int intAmount, int intMinimum)
+            {
+                bool blnResult;
+                if (intAmount >= intMinimum)
+                {
+                    blnResult = true;
+                }
+                else
+                {
+                    blnResult = false;
+                }
+                return blnResult;
+            }
+            public static bool IsAMinimumAmountDouble (double dblAmount, double dblMinimum)
+            {
+                bool blnResult;
+                if (dblAmount >= dblMinimum)
+            {
+                    blnResult = true;
+                }
+                else
+            {
+                    blnResult = false;
+                }
+                return blnResult;
+            }   
+            public static bool IsADiscountMember (bool blnDiscount)
+             {
+                bool blnResult;
+                if (blnDiscount == true)
+            {
+                    blnResult = true;
+                }
+                else
+            {
+                    blnResult = false;
+                }
+                return blnResult;
+            }
+
         }
-        public class  Person{
+        class Person{
             private string _firstName;
             private string _middleName;
             private string _lastName;
@@ -106,7 +199,8 @@ namespace WindowsFormsPerson{
             private string _phone;
             private string _email;
             private string feedback;
-
+            
+           
             public string FirstName{
                 get{
                     return _firstName;
@@ -191,7 +285,7 @@ namespace WindowsFormsPerson{
                     return _state;
                 }
                 set{
-                    if (ValidationLibrary.IsFilled(value)){
+                    if (ValidationLibrary.IsValidState(value)){
                         _state = value;
                     }
                     else{
@@ -204,7 +298,7 @@ namespace WindowsFormsPerson{
                     return _zip;
                 }
                 set{
-                    if (ValidationLibrary.IsValidZip(value)){
+                    if (ValidationLibrary.IsValidZip(value) == false){
                         _zip = value;
                     }
                     else{
@@ -217,7 +311,7 @@ namespace WindowsFormsPerson{
                     return _phone;
                 }
                 set{
-                    if (ValidationLibrary.IsValidPhone(value)){
+                    if (ValidationLibrary.IsValidPhone(value) == true){
                         _phone = value;
                     }
                     else{
@@ -243,13 +337,153 @@ namespace WindowsFormsPerson{
              {
 
                 get { return feedback; }
+           
+             }
+
+            public Person()
+            {
+                _firstName = "";
+                _middleName = "";
+                _lastName = "";
+                _street1 = "";
+                _street2 = "";
+                _city = "";
+                _state = "";
+                _zip = "";
+                _phone = "";
+                _email = "";
+            }
+        }
+        class PersonV2: Person{
+        private string cellphone;
+        private string instagramurl;
+
+        public string CellPhone
+        {
+            get
+            {
+                return cellphone;
+            }
+            set
+            {
+                if (ValidationLibrary.IsValidPhone(value) == true)
+                {
+                    cellphone = value;
+                }
+                else
+                {
+                    cellphone = "INVALID";
+                }
+            }
+        }
+        public string InstagramUrl
+        {
+            get
+            {
+                return instagramurl;
+            }
+            set
+            {
+                if (ValidationLibrary.IsValidInstagram(value) == true)
+                {
+                    instagramurl = value;
+                }
+                else
+                {
+                    instagramurl = "INVALID";
+                }
+            }
+        }
+        public PersonV2(): base()
+        {
+            cellphone = "";
+            instagramurl = "";
+        }
+
+    
+      }
+        class Customer: PersonV2
+        {
+            private DateTime customersince;
+            private Double totalpurchases;
+            private bool discountmember;
+            private int rewardsearned;
+             
+           public DateTime CustomerSince
+            {
+                get
+                {
+                    return customersince;
+                }
                 set
                 {
-
-                   feedback = value;
+                    if (ValidationLibrary.IsAPastDate(value))
+                    {
+                        customersince = value;
+                    }
+                    else
+                 {
+                        customersince = DateTime.Parse("01/01/1900 12:00 am");
+                    }
                 }
-             }
-       
-        }
+            }
+            public Double TotalPurchases
+            {
+                get
+                {
+                    return totalpurchases;
+                }
+                set
+                {
+                    if (ValidationLibrary.IsAMinimumAmountDouble(value, 0))
+                    {
+                        totalpurchases = value;
+                    }
+                    else
+                    {
+                        totalpurchases = 0;
+                    }
+                }
+            }
+            public bool DiscountMember
+            {
+                get
+                {
+                    return discountmember;
+                }
+                set
+                {
+                    discountmember = value;
+                }
+            }
+            public int RewardsEarned
+            {
+                get
+                 {
+                    return rewardsearned;
+                }
+                set
+                {
+                    if (ValidationLibrary.IsAMinimumAmountInt(value, 0))
+                    {
+                        rewardsearned = value;
+                    }
+                    else
+                    {
+                        rewardsearned = 0;
+                    }
+                }
+            }
+            public Customer(): base()
+            {
+                customersince = DateTime.Now;
+                totalpurchases = 0;
+                discountmember = false;
+                rewardsearned = 0;
+            }       
+
+        }  
+    
+
 
 }
