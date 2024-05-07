@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\Week 7_Sample1_DBConnections\\Week 6_Sample1_DataValidation\\Ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week 7_Sample1_DBConnections\\Week 6_Sample1_DataValidation\\Ebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\source\\repos\\WindowsFormsBook\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:source\\repos\\WindowsFormsBook\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,31 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Ebook.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\Week 7_Sample1_DBConnections\\Week 6_Sample1_DataValidation\\Ebook.cs",
+              "RelativeDocumentMoniker": "Week 7_Sample1_DBConnections\\Week 6_Sample1_DataValidation\\Ebook.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\Week 7_Sample1_DBConnections\\Week 6_Sample1_DataValidation\\Ebook.cs",
+              "RelativeToolTip": "Week 7_Sample1_DBConnections\\Week 6_Sample1_DataValidation\\Ebook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:15:23.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-07T13:14:43.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProjectSettings.json",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\.vs\\ProjectSettings.json",
               "RelativeDocumentMoniker": ".vs\\ProjectSettings.json",
               "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\.vs\\ProjectSettings.json",
               "RelativeToolTip": ".vs\\ProjectSettings.json",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-25T15:23:35.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\source\\repos\\WindowsFormsBook\\Form1.cs",
-              "RelativeDocumentMoniker": "source\\repos\\WindowsFormsBook\\Form1.cs",
-              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\source\\repos\\WindowsFormsBook\\Form1.cs",
-              "RelativeToolTip": "source\\repos\\WindowsFormsBook\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T15:19:28.539Z"
+              "WhenOpened": "2024-04-25T15:23:35.521Z"
             }
           ]
         }
