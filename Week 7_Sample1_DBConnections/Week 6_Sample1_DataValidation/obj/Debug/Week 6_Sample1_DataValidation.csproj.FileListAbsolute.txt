@@ -1,0 +1,22 @@
+c:\users\slambert\documents\visual studio 2015\Projects\Week 6_Sample1_DataValidation\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe.config
+F:\SE245-Console\Week 6\Week 6_Sample1_DataValidation\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe.config
+F:\SE245-Console\Week 6\Week 6_Sample1_DataValidation\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe
+F:\SE245-Console\Week 6\Week 6_Sample1_DataValidation\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.pdb
+F:\SE245-Console\Week 6\Week 6_Sample1_DataValidation\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.csprojResolveAssemblyReference.cache
+F:\SE245-Console\Week 6\Week 6_Sample1_DataValidation\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.exe
+F:\SE245-Console\Week 6\Week 6_Sample1_DataValidation\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.pdb
+F:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe.config
+F:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.exe
+F:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.pdb
+E:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe.config
+E:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.exe
+E:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.pdb
+E:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe
+E:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.pdb
+E:\SE245-Console\Week 6\Week 6_Sample2_Inheritance\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.csprojResolveAssemblyReference.cache
+C:\Users\slambert\Documents\NEIT\Courses\SE245-Console\Week 7\Week 7_Sample1_DBConnections\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe.config
+C:\Users\slambert\Documents\NEIT\Courses\SE245-Console\Week 7\Week 7_Sample1_DBConnections\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.exe
+C:\Users\slambert\Documents\NEIT\Courses\SE245-Console\Week 7\Week 7_Sample1_DBConnections\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.pdb
+C:\Users\slambert\Documents\NEIT\Courses\SE245-Console\Week 7\Week 7_Sample1_DBConnections\Week 6_Sample1_DataValidation\obj\Debug\Week 6_Sample1_DataValidation.csprojResolveAssemblyReference.cache
+C:\Users\slambert\Documents\NEIT\Courses\SE245-Console\Week 7\Week 7_Sample1_DBConnections\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.exe
+C:\Users\slambert\Documents\NEIT\Courses\SE245-Console\Week 7\Week 7_Sample1_DBConnections\Week 6_Sample1_DataValidation\bin\Debug\Week 6_Sample1_DataValidation.pdb
