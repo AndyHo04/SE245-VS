@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,15 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Lab4.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Lab4.cs",
               "RelativeDocumentMoniker": "Lab4.cs",
@@ -55,7 +51,8 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AQIAAPUAAAAAAAAAAAAswBwBAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:57:09.12Z"
+              "WhenOpened": "2024-04-25T11:57:09.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,18 +64,20 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAYwCUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:56:56.213Z"
+              "WhenOpened": "2024-04-25T11:56:56.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:46:58.174Z"
+              "WhenOpened": "2024-04-25T11:46:58.174Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
