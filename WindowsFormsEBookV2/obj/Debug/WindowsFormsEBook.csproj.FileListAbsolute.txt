@@ -1,0 +1,10 @@
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\bin\Debug\WindowsFormsEBook.exe.config
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\bin\Debug\WindowsFormsEBook.exe
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\bin\Debug\WindowsFormsEBook.pdb
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\obj\Debug\WindowsFormsEBook.csproj.AssemblyReference.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\obj\Debug\WindowsFormsEBook.Form1.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\obj\Debug\WindowsFormsEBook.Properties.Resources.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\obj\Debug\WindowsFormsEBook.csproj.GenerateResource.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\obj\Debug\WindowsFormsEBook.csproj.CoreCompileInputs.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\obj\Debug\WindowsFormsEBook.exe
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\WindowsFormsEBook\obj\Debug\WindowsFormsEBook.pdb
