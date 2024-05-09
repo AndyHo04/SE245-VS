@@ -28,6 +28,8 @@ using System.Threading.Tasks;
 using Microsoft.Win32.SafeHandles;
 using static System.Windows.Forms.AxHost;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace WindowsFormsPerson{
         //Create the validation library
@@ -337,6 +339,7 @@ namespace WindowsFormsPerson{
              {
 
                 get { return feedback; }
+                set { feedback = value; }
            
              }
 
@@ -352,6 +355,7 @@ namespace WindowsFormsPerson{
                 _zip = "";
                 _phone = "";
                 _email = "";
+                feedback = "";
             }
         }
         class PersonV2: Person{
@@ -393,97 +397,76 @@ namespace WindowsFormsPerson{
                     instagramurl = "INVALID";
                 }
             }
+
         }
+        
+        public string AddARecord() 
+        {
+            //Init string var
+            string strResult = "";
+
+            //Make a connection object
+            SqlConnection Conn = new SqlConnection();
+
+            //Initialize it's properties
+            Conn.ConnectionString = @"Server=sql.neit.edu,4500;Database=Dev_202430_AHo;User Id=Dev_202430_AHo;Password=008021468;";     //Set the Who/What/Where of DB
+
+            //insert data into sql server
+            SqlCommand comm = new SqlCommand();
+            string strSql = "INSERT INTO PersonV2 (FirstName, MiddleName, LastName, Street1, Street2, City, State, Zip, Phone, Email, CellPhone, InstagramUrl) VALUES (@FirstName, @MiddleName, @LastName, @Street1, @Street2, @City, @State, @Zip, @Phone, @Email, @CellPhone, @InstagramUrl)";
+            comm.CommandText = strSql;
+            comm.Connection = Conn;
+
+            //fill in the parameters
+            comm.Parameters.AddWithValue("@FirstName", FirstName);
+            comm.Parameters.AddWithValue("@MiddleName", MiddleName);
+            comm.Parameters.AddWithValue("@LastName", LastName);
+            comm.Parameters.AddWithValue("@Street1", Street1);
+            comm.Parameters.AddWithValue("@Street2", Street2);
+            comm.Parameters.AddWithValue("@City", City);
+            comm.Parameters.AddWithValue("@State", State);
+            comm.Parameters.AddWithValue("@Zip", Zip);
+            comm.Parameters.AddWithValue("@Phone", Phone);
+            comm.Parameters.AddWithValue("@Email", Email);
+            comm.Parameters.AddWithValue("@CellPhone", CellPhone);
+            comm.Parameters.AddWithValue("@InstagramUrl", InstagramUrl);
+
+            //attempt to connect to the server
+            try
+            {
+                Conn.Open();                                        //Open connection to DB - Think of dialing a friend on phone
+                int IntRecs = comm.ExecuteNonQuery();               // Actually run the command (Non Query)
+                strResult = $"SUCCESS: Inserted {IntRecs} record."; //Report that we have made the connection
+                Conn.Close();                                       //Hanging up after phone call
+            }
+            catch (Exception err)                                   //If we got here, there was a problem connecting to DB
+            {
+                strResult = "ERROR: " + err.Message;                //Set feedback to state there was an error & error info
+            }
+            finally
+            {
+
+            }
+
+
+
+
+            //Return resulting feedback string
+            return strResult;
+        }
+
         public PersonV2(): base()
         {
             cellphone = "";
             instagramurl = "";
         }
 
-    
-      }
-        class Customer: PersonV2
-        {
-            private DateTime customersince;
-            private Double totalpurchases;
-            private bool discountmember;
-            private int rewardsearned;
-             
-           public DateTime CustomerSince
-            {
-                get
-                {
-                    return customersince;
-                }
-                set
-                {
-                    if (ValidationLibrary.IsAPastDate(value))
-                    {
-                        customersince = value;
-                    }
-                    else
-                 {
-                        customersince = DateTime.Parse("01/01/1900 12:00 am");
-                    }
-                }
-            }
-            public Double TotalPurchases
-            {
-                get
-                {
-                    return totalpurchases;
-                }
-                set
-                {
-                    if (ValidationLibrary.IsAMinimumAmountDouble(value, 0))
-                    {
-                        totalpurchases = value;
-                    }
-                    else
-                    {
-                        totalpurchases = 0;
-                    }
-                }
-            }
-            public bool DiscountMember
-            {
-                get
-                {
-                    return discountmember;
-                }
-                set
-                {
-                    discountmember = value;
-                }
-            }
-            public int RewardsEarned
-            {
-                get
-                 {
-                    return rewardsearned;
-                }
-                set
-                {
-                    if (ValidationLibrary.IsAMinimumAmountInt(value, 0))
-                    {
-                        rewardsearned = value;
-                    }
-                    else
-                    {
-                        rewardsearned = 0;
-                    }
-                }
-            }
-            public Customer(): base()
-            {
-                customersince = DateTime.Now;
-                totalpurchases = 0;
-                discountmember = false;
-                rewardsearned = 0;
-            }       
+    }
 
-        }  
+
+
+}  
     
 
 
-}
+

@@ -55,14 +55,6 @@
             this.txtCellPhone = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtInstagramUrl = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.dtnDateSince = new System.Windows.Forms.DateTimePicker();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtTotalPurchases = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.txtRewardsEarned = new System.Windows.Forms.TextBox();
-            this.boolDiscountMember = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -284,87 +276,11 @@
             this.txtInstagramUrl.Size = new System.Drawing.Size(210, 22);
             this.txtInstagramUrl.TabIndex = 26;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(264, 38);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(104, 16);
-            this.label13.TabIndex = 27;
-            this.label13.Text = "Customer Since:";
-            // 
-            // dtnDateSince
-            // 
-            this.dtnDateSince.Location = new System.Drawing.Point(369, 35);
-            this.dtnDateSince.Name = "dtnDateSince";
-            this.dtnDateSince.Size = new System.Drawing.Size(200, 22);
-            this.dtnDateSince.TabIndex = 28;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(264, 66);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(108, 16);
-            this.label14.TabIndex = 29;
-            this.label14.Text = "Total Purchases:";
-            // 
-            // txtTotalPurchases
-            // 
-            this.txtTotalPurchases.Location = new System.Drawing.Point(369, 63);
-            this.txtTotalPurchases.Name = "txtTotalPurchases";
-            this.txtTotalPurchases.Size = new System.Drawing.Size(49, 22);
-            this.txtTotalPurchases.TabIndex = 30;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(264, 96);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(115, 16);
-            this.label15.TabIndex = 31;
-            this.label15.Text = "Discount Member:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(264, 124);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(108, 16);
-            this.label16.TabIndex = 33;
-            this.label16.Text = "RewardsEarned:";
-            // 
-            // txtRewardsEarned
-            // 
-            this.txtRewardsEarned.Location = new System.Drawing.Point(378, 121);
-            this.txtRewardsEarned.Name = "txtRewardsEarned";
-            this.txtRewardsEarned.Size = new System.Drawing.Size(50, 22);
-            this.txtRewardsEarned.TabIndex = 34;
-            // 
-            // boolDiscountMember
-            // 
-            this.boolDiscountMember.AutoSize = true;
-            this.boolDiscountMember.Location = new System.Drawing.Point(378, 95);
-            this.boolDiscountMember.Name = "boolDiscountMember";
-            this.boolDiscountMember.Size = new System.Drawing.Size(95, 20);
-            this.boolDiscountMember.TabIndex = 35;
-            this.boolDiscountMember.TabStop = false;
-            this.boolDiscountMember.Text = "checkBox1";
-            this.boolDiscountMember.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.boolDiscountMember);
-            this.Controls.Add(this.txtRewardsEarned);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.txtTotalPurchases);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.dtnDateSince);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.txtInstagramUrl);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txtCellPhone);
@@ -428,14 +344,6 @@
         private System.Windows.Forms.TextBox txtCellPhone;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtInstagramUrl;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.DateTimePicker dtnDateSince;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtTotalPurchases;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox txtRewardsEarned;
-        private System.Windows.Forms.CheckBox boolDiscountMember;
     }
 }
 
