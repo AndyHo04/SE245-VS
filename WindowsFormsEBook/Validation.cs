@@ -42,7 +42,19 @@ namespace WindowsFormsBook
             }
             return bInResult;
 
-            //Convert above into Isac's way.
+            //Convert above into Issac's way.
+        }
+        public static bool IsAPastDate (DateTime temp)
+        {
+            bool bInResult;
+            if (temp >= DateTime.Now)
+            {
+                bInResult = false;
+            } else
+            {
+                bInResult = true;
+            }
+            return bInResult;
         }
 
         // Receives a string and we can let user know if it has a semi-valid email format

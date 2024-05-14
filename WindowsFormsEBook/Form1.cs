@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using System.Data.SqlClient;
 using WindowsFormsBook;
 
 namespace WindowsFormsEBook
@@ -23,10 +25,8 @@ namespace WindowsFormsEBook
         {
             //Fill the Text property of the Feedback variable with the book title, price, and date published with some descriptive text/string
             //the "Value" property of the DateTimePicker returns a DateTime variable. We converted it to a string in order to append it to string/text.
-            //iblFeedback.Text = "Book Title " + txtTitle.Text + " costs " + txtPrice.Text + " and was published on " + dtpDatePublished.Value.ToString();
-
-            Book temp = new Book(); // create a new instance of the Book class
-            Ebook temp2 = new Ebook(); // create a new instance of the Ebook class
+            //iblFeedback.Text = "Book Title " + txtTitle.Text + " costs " + txtPrice.Text + " and was published on " + dtpDatePublished.Value.ToString()
+            Ebook temp = new Ebook(); // create a new instance of the Ebook class
             temp.Feedback = ""; // clear out the feedback variable
 
             temp.Title = txtTitle.Text; // set the title property to the value in the txtTitle textbox
@@ -34,7 +34,7 @@ namespace WindowsFormsEBook
             temp.AuthorLast = txtALname.Text; // set the authorLast property to the value in the txtAuthorLast textbox
             temp.Email = txtEmail.Text; // set the email property to the value in the txtEmail textbox
             temp.DatePublished = dtnDatePublished.Value; // set the datePublished property to the value in the dtpDatePublished DateTimePicker
-            temp2.DateRentalExpires = dtnDateRentalExpires.Value; // set the dateRentalExpires property to the value in the dtpDateRentalExpires DateTimePicker
+            temp.DateRentalExpires = dtnDateRentalExpires.Value; // set the dateRentalExpires property to the value in the dtpDateRentalExpires DateTimePicker
 
 
             int tPages = 0; // create an integer variable to hold the number of pages
@@ -70,7 +70,7 @@ namespace WindowsFormsEBook
             {
                 if (tBookmarkPage >= 0 && tBookmarkPage <= temp.Pages) // check to see if the bookmark page is greater than or equal to 0 and less than or equal to the number of pages
                 {
-                    temp2.BookmarkPage = tBookmarkPage; // if successful, set the bookmark page property to the value in the txtBookmarkPage textbox
+                    temp.BookmarkPage = tBookmarkPage; // if successful, set the bookmark page property to the value in the txtBookmarkPage textbox
                 }
                 else
                 {
@@ -83,7 +83,7 @@ namespace WindowsFormsEBook
            
             
 
-
+            /*
             if (temp.Feedback.Contains("ERROR")) // check to see if the feedback variable contains the word "ERROR"
             {
                 iblFeedback.Text = temp.Feedback; // if it does, display the feedback variable in the iblFeedback textbox
@@ -95,8 +95,20 @@ namespace WindowsFormsEBook
                     + temp.DatePublished.ToString() + " - Pages: " + temp.Pages.ToString() + " - Date Rental Expires: " + temp2.DateRentalExpires.ToString() + " - Bookmark Page: " + temp2.BookmarkPage.ToString();// display the feedback variable in the iblFeedback textbox
 
             }
-
+            */
+            //NEW...Look for Errors listed in Feedback...If none found, SAVE THE DATA IN DB
+            if (!temp.Feedback.Contains("ERROR:"))
+            {
+               iblFeedback.Text = temp.AddARecord(); //if no errors, insert the record
+            }
+            else
+            {
+              iblFeedback.Text = temp.Feedback; //if errors, display them
+            }
+            
+           
         }
+
 
     }
 }
