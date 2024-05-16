@@ -20,6 +20,40 @@ namespace WindowsFormsPerson
             InitializeComponent();
         }
 
+        public Form1(int intPerson_ID)
+        {
+            InitializeComponent();
+
+            //create the person object
+            PersonV2 temp = new PersonV2();
+            SqlDataReader dr = temp.FindOnePerson(intPerson_ID);
+
+            //use the datareader to get the data from the database
+            while (dr.Read())
+            {
+                //Take the Name(s) from the datareader and copy them
+                // into the appropriate text fields
+                txtFName.Text = dr["FirstName"].ToString();
+                txtMName.Text = dr["MiddleName"].ToString();
+                txtLName.Text = dr["LastName"].ToString();
+                txtStreet1.Text = dr["Street1"].ToString();
+                txtStreet2.Text = dr["Street2"].ToString();
+                txtCity.Text = dr["City"].ToString();
+                txtState.Text = dr["State"].ToString();
+                txtZip.Text = dr["Zip"].ToString();
+                txtPhone.Text = dr["Phone"].ToString();
+                txtEmail.Text = dr["Email"].ToString();
+                txtCellPhone.Text = dr["CellPhone"].ToString();
+                txtInstagramUrl.Text = dr["InstagramUrl"].ToString();
+
+                lblPersonID.Text = dr["PersonID"].ToString();
+            }
+
+
+
+
+        }
+
         private void Button_Click(object sender, EventArgs e)
         {
             //Create the person object
@@ -71,5 +105,5 @@ namespace WindowsFormsPerson
         
     }
 
-   
+
 }

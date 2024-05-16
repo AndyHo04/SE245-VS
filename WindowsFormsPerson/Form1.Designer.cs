@@ -55,6 +55,8 @@
             this.txtCellPhone = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtInstagramUrl = new System.Windows.Forms.TextBox();
+            this.lblPersonID = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -276,11 +278,30 @@
             this.txtInstagramUrl.Size = new System.Drawing.Size(210, 22);
             this.txtInstagramUrl.TabIndex = 26;
             // 
+            // lblPersonID
+            // 
+            this.lblPersonID.AutoSize = true;
+            this.lblPersonID.Location = new System.Drawing.Point(339, 38);
+            this.lblPersonID.Name = "lblPersonID";
+            this.lblPersonID.Size = new System.Drawing.Size(0, 16);
+            this.lblPersonID.TabIndex = 27;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(264, 38);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(69, 16);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "Person ID:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.lblPersonID);
             this.Controls.Add(this.txtInstagramUrl);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txtCellPhone);
@@ -344,6 +365,8 @@
         private System.Windows.Forms.TextBox txtCellPhone;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtInstagramUrl;
+        private System.Windows.Forms.Label lblPersonID;
+        private System.Windows.Forms.Label label13;
     }
 }
 

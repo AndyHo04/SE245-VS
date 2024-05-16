@@ -408,8 +408,9 @@ namespace WindowsFormsPerson{
             //Make a connection object
             SqlConnection Conn = new SqlConnection();
 
-            //Initialize it's properties
-            Conn.ConnectionString = @"Server=sql.neit.edu,4500;Database=Dev_202430_AHo;User Id=Dev_202430_AHo;Password=008021468;";     //Set the Who/What/Where of DB
+            //set the who/what/where of the DB
+            Conn.ConnectionString = GetConnected();
+
 
             //insert data into sql server
             SqlCommand comm = new SqlCommand();
@@ -455,6 +456,89 @@ namespace WindowsFormsPerson{
             return strResult;
         }
 
+        public DataSet SearchPerson (String strFirstName, String strLastName)
+        {
+            //create a dataset to return filled
+            DataSet ds = new DataSet();
+
+            //create a connection to sql server
+            SqlCommand comm = new SqlCommand();
+
+            //write a select staeement to perform the search
+            string strSql = "SELECT PersonID, FirstName, LastName, Street1, City, State, Zip, Phone, Email FROM PersonV2 WHERE 0=0";
+
+            //if the first name is filled, add to the sql string
+            if (strFirstName.Length > 0)
+            {
+                strSql += " AND FirstName LIKE @FirstName";
+                comm.Parameters.AddWithValue("@FirstName", "%" + strFirstName + "%");
+            }
+            //if the last name is filled, add to the sql string
+            if (strLastName.Length > 0)
+            {
+                strSql += " AND LastName LIKE @LastName";
+                comm.Parameters.AddWithValue("@LastName", "%" + strLastName + "%");
+            }
+
+            //create DB Tools and Configure
+            SqlConnection conn = new SqlConnection();
+            //Create the who, what, where of the DB
+            string strConn = @GetConnected();
+            conn.ConnectionString = strConn;
+
+            //fill in the info for the command object
+            comm.Connection = conn; //tell the commander what connection to use
+            comm.CommandText = strSql; //tell the command what to say
+
+            //create the Data Adapter
+            SqlDataAdapter da = new SqlDataAdapter();
+            da.SelectCommand = comm;
+
+            //open the database connection and the da.fill will fill the dataset
+            conn.Open(); //Open the connection to the DB
+            da.Fill(ds, "Person_Table"); //Fill the dataset with results now
+            conn.Close(); //Close the connection to the DB
+
+            //return the dataset
+            return ds;
+        }
+
+        //NEW  - Method that returns a Data Reader filled with all the data
+        // of one Person.  This one Persom is specified by the ID passed
+        // to this function
+
+        public SqlDataReader FindOnePerson(int intPersonID)
+        {
+            //create and initialize the the DB tools we need
+            SqlConnection conn = new SqlConnection();
+            SqlCommand comm = new SqlCommand();
+            
+            //connection string
+            string strConn = GetConnected();
+
+            //SQL command string to pull up one person's data
+            string sqlString = "SELECT * FROM PersonV2 WHERE PersonID = @PersonID";
+            
+            //Tell the connection object the who, what, where, how
+            conn.ConnectionString = strConn;
+
+            //Give the command object the needed information
+            comm.Connection = conn;
+            comm.CommandText = sqlString;
+            comm.Parameters.AddWithValue("@PersonID", intPersonID);
+
+            //open the DataBase Connection and get the data
+            conn.Open(); //Open the connection to the DB
+
+            //Return some form of feedback
+            return comm.ExecuteReader(); //Return the dataset to be used by others (the calling form)
+        }
+
+
+        private string GetConnected()
+        {
+            return @"Server=sql.neit.edu\sqlstudentserver,4500;Database=Dev_202430_AHo;User Id=Dev_202430_AHo;Password=008021468;";
+        }
         public PersonV2(): base()
         {
             cellphone = "";
