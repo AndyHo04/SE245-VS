@@ -57,6 +57,8 @@
             this.txtInstagramUrl = new System.Windows.Forms.TextBox();
             this.lblPersonID = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.btnUpdate_Person = new System.Windows.Forms.Button();
+            this.btnDelete_Person = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -295,11 +297,33 @@
             this.label13.TabIndex = 28;
             this.label13.Text = "Person ID:";
             // 
+            // btnUpdate_Person
+            // 
+            this.btnUpdate_Person.Location = new System.Drawing.Point(440, 330);
+            this.btnUpdate_Person.Name = "btnUpdate_Person";
+            this.btnUpdate_Person.Size = new System.Drawing.Size(129, 23);
+            this.btnUpdate_Person.TabIndex = 29;
+            this.btnUpdate_Person.Text = "Update Person";
+            this.btnUpdate_Person.UseVisualStyleBackColor = true;
+            this.btnUpdate_Person.Click += new System.EventHandler(this.btnUpdate_Person_Click);
+            // 
+            // btnDelete_Person
+            // 
+            this.btnDelete_Person.Location = new System.Drawing.Point(590, 330);
+            this.btnDelete_Person.Name = "btnDelete_Person";
+            this.btnDelete_Person.Size = new System.Drawing.Size(137, 23);
+            this.btnDelete_Person.TabIndex = 30;
+            this.btnDelete_Person.Text = "Delete Person";
+            this.btnDelete_Person.UseVisualStyleBackColor = true;
+            this.btnDelete_Person.Click += new System.EventHandler(this.btnDelete_Person_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDelete_Person);
+            this.Controls.Add(this.btnUpdate_Person);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.lblPersonID);
             this.Controls.Add(this.txtInstagramUrl);
@@ -367,6 +391,8 @@
         private System.Windows.Forms.TextBox txtInstagramUrl;
         private System.Windows.Forms.Label lblPersonID;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnUpdate_Person;
+        private System.Windows.Forms.Button btnDelete_Person;
     }
 }
 

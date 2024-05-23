@@ -102,7 +102,48 @@ namespace WindowsFormsPerson
 
         }
 
-        
+        private void btnUpdate_Person_Click(object sender, EventArgs e)
+        {
+            PersonV2 temp = new PersonV2();
+            //Getting the strings from the form and setting them in object
+            temp.PersonID = Convert.ToInt32(lblPersonID.Text);
+            temp.FirstName = txtFName.Text;
+            temp.MiddleName = txtMName.Text;
+            temp.LastName = txtLName.Text;
+            temp.Street1 = txtStreet1.Text;
+            temp.Street2 = txtStreet2.Text;
+            temp.City = txtCity.Text;
+            temp.State = txtState.Text;
+            temp.Zip = txtZip.Text;
+            temp.Email = txtEmail.Text;
+            temp.Phone = txtPhone.Text;
+            temp.CellPhone = txtCellPhone.Text;
+            temp.InstagramUrl = txtInstagramUrl.Text;
+
+            if (!temp.PerFeedback.Contains("ERROR:"))
+            {
+                PerFeedback.Text = temp.UpdatePerson();
+            }
+            else
+            {
+                PerFeedback.Text = temp.PerFeedback;
+            }
+
+        }
+        /// <summary>
+        /// Form code to delete a record based on its ID
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnDelete_Person_Click(object sender, EventArgs e)
+        {
+            Int32 intPerson_ID = Convert.ToInt32(lblPersonID.Text);
+
+            PersonV2 temp = new PersonV2();
+           
+            //get the Person_ID and pass it to the delete method
+            PerFeedback.Text = temp.DeletePerson(intPerson_ID);
+        }
     }
 
 

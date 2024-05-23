@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\searchperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:searchperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\searchperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:searchperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:Lab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\windowsformsperson\\controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:controlpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\SearchPerson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:SearchPerson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\ControlPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:ControlPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\searchperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:searchperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\SearchPerson.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A092429-1EB4-4B6A-9566-7780985A3B38}|WindowsFormsPerson.csproj|solutionrelative:SearchPerson.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAgwDAAAAAtAAAA",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAkwJYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T11:56:56.213Z",
               "IsPinned": true,
@@ -60,20 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ControlPanel.cs",
-              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\ControlPanel.cs",
-              "RelativeDocumentMoniker": "ControlPanel.cs",
-              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\ControlPanel.cs",
-              "RelativeToolTip": "ControlPanel.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAABwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:54:45.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ControlPanel.cs [Design]",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\ControlPanel.cs",
               "RelativeDocumentMoniker": "ControlPanel.cs",
@@ -85,45 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Lab4.cs",
-              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Lab4.cs",
-              "RelativeDocumentMoniker": "Lab4.cs",
-              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Lab4.cs",
-              "RelativeToolTip": "Lab4.cs",
-              "ViewState": "AQIAAMEBAAAAAAAAAAAUwPIBAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:08:36.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:46:58.174Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T13:51:20.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SearchPerson.cs [Design]",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\SearchPerson.cs",
               "RelativeDocumentMoniker": "SearchPerson.cs",
@@ -135,15 +101,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "SearchPerson.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\SearchPerson.cs",
               "RelativeDocumentMoniker": "SearchPerson.cs",
               "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\SearchPerson.cs",
               "RelativeToolTip": "SearchPerson.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T14:09:51.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T11:46:58.174Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab4.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Lab4.cs",
+              "RelativeDocumentMoniker": "Lab4.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\Lab4.cs",
+              "RelativeToolTip": "Lab4.cs",
+              "ViewState": "AQIAAG0CAAAAAAAAAAAIwM8BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:08:36.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ControlPanel.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\ControlPanel.cs",
+              "RelativeDocumentMoniker": "ControlPanel.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\ControlPanel.cs",
+              "RelativeToolTip": "ControlPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T13:54:45.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchPerson.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\SearchPerson.Designer.cs",
+              "RelativeDocumentMoniker": "SearchPerson.Designer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsPerson\\SearchPerson.Designer.cs",
+              "RelativeToolTip": "SearchPerson.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:33:28.486Z",
               "EditorCaption": ""
             }
           ]

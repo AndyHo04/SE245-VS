@@ -361,6 +361,8 @@ namespace WindowsFormsPerson{
         class PersonV2: Person{
         private string cellphone;
         private string instagramurl;
+        private int personID;
+       
 
         public string CellPhone
         {
@@ -399,7 +401,27 @@ namespace WindowsFormsPerson{
             }
 
         }
-        
+
+        public Int32 PersonID
+        {
+            get
+            {
+                return personID;
+            }
+            set
+            {
+                if (value >= 0)
+                {
+                    personID = value;
+                }
+                else
+                {
+                    PerFeedback += "ERROR: Invalid Person ID. ";
+                }
+            }
+
+        }
+        public int totalCount = 0;
         public string AddARecord() 
         {
             //Init string var
@@ -437,7 +459,7 @@ namespace WindowsFormsPerson{
             {
                 Conn.Open();                                        //Open connection to DB - Think of dialing a friend on phone
                 int IntRecs = comm.ExecuteNonQuery();               // Actually run the command (Non Query)
-                strResult = $"SUCCESS: Inserted {IntRecs} record."; //Report that we have made the connection
+                strResult = $"SUCCESS: Inserted {IntRecs} record. Total Records added is {totalCount}"; //Report that we have made the connection
                 Conn.Close();                                       //Hanging up after phone call
             }
             catch (Exception err)                                   //If we got here, there was a problem connecting to DB
@@ -534,6 +556,108 @@ namespace WindowsFormsPerson{
             return comm.ExecuteReader(); //Return the dataset to be used by others (the calling form)
         }
 
+        //Create a method that will delete a record 
+        //It will return an Interger meant for feedback on how many 
+        // records were deleted
+        public string DeletePerson(int intPersonID)
+        { 
+             int intRecords = 0;
+             string strResult = "";
+             
+            //Create and Initialize the DB Tools we need
+            SqlConnection conn = new SqlConnection();
+            SqlCommand comm = new SqlCommand();
+
+            //Connection string
+            string strConn = GetConnected();
+
+            //SQL command string to pull up one person's data
+            string sqlString = "DELETE FROM PersonV2 WHERE PersonID = @PersonID";
+
+            //Tell the connection object the who, what, where, how
+            conn.ConnectionString = strConn;
+
+            //Give the command object the needed information
+            comm.Connection = conn;
+            comm.CommandText = sqlString;
+            comm.Parameters.AddWithValue("@PersonID", intPersonID);
+
+            //open the DataBase Connection and get the data
+            try
+            {
+                //open the connection
+                conn.Open();
+
+                //Run the delete and store the number of records effected
+                intRecords = comm.ExecuteNonQuery();
+                strResult = intRecords.ToString() + " Records Deleted.";
+            }
+            catch (Exception err)
+            {
+                strResult = "ERROR: " + err.Message;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return strResult;
+        }
+
+        //Create a method that will update a record
+        /// </summary>
+        /// <returns></returns>
+        public string UpdatePerson()
+        {
+            Int32 intRecords = 0;
+            string strResult = "";
+            //create sql command string
+            string strSql = "UPDATE PersonV2 SET FirstName = @FirstName, MiddleName = @MiddleName, LastName = @LastName, Street1 = @Street1, Street2 = @Street2, City = @City, State = @State, Zip = @Zip, Phone = @Phone, Email = @Email, CellPhone = @CellPhone, InstagramUrl = @InstagramUrl WHERE PersonID = @PersonID";
+            //create a connection to sql server
+            SqlConnection conn = new SqlConnection();
+            //create the who , what, where of the DB
+            string strConn = GetConnected();
+            conn.ConnectionString = strConn;
+
+            //bark out command
+            SqlCommand comm = new SqlCommand();
+            comm.CommandText = strSql;
+            comm.Connection = conn;
+            //fill in the parameters
+            comm.Parameters.AddWithValue("@FirstName", FirstName);
+            comm.Parameters.AddWithValue("@MiddleName", MiddleName);
+            comm.Parameters.AddWithValue("@LastName", LastName);
+            comm.Parameters.AddWithValue("@Street1", Street1);
+            comm.Parameters.AddWithValue("@Street2", Street2);
+            comm.Parameters.AddWithValue("@City", City);
+            comm.Parameters.AddWithValue("@State", State);
+            comm.Parameters.AddWithValue("@Zip", Zip);
+            comm.Parameters.AddWithValue("@Phone", Phone);
+            comm.Parameters.AddWithValue("@Email", Email);
+            comm.Parameters.AddWithValue("@CellPhone", CellPhone);
+            comm.Parameters.AddWithValue("@InstagramUrl", InstagramUrl);
+            comm.Parameters.AddWithValue("@PersonID", PersonID);
+           
+     
+
+            try 
+            { 
+                //open the connection
+                conn.Open();
+                //Run the update and store the number of records effected
+                intRecords = comm.ExecuteNonQuery();
+                strResult = intRecords.ToString() + " Records Updated.";
+            }
+            catch (Exception err)
+            {
+                strResult = "ERROR: " + err.Message;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return strResult;
+        }
+
 
         private string GetConnected()
         {
@@ -543,6 +667,7 @@ namespace WindowsFormsPerson{
         {
             cellphone = "";
             instagramurl = "";
+           
         }
 
     }
