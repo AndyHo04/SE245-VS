@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|c:\\users\\andyh\\onedrive\\desktop\\se245-vs\\c#final\\addingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:addingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\searchingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:searchingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\addingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:addingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\addingplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:addingplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\searchingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:searchingplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\searchingplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:searchingplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329B9FB9-0440-46AC-A9D1-FAB6AED629FD}|C#Final.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:55:32.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T01:07:52.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchingPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\SearchingPlayer.cs",
+              "RelativeDocumentMoniker": "SearchingPlayer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\SearchingPlayer.cs",
+              "RelativeToolTip": "SearchingPlayer.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwBsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T12:21:55.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AQIAAKsBAAAAAAAAAAAQwCYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T12:28:00.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddingPlayer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\AddingPlayer.cs",
+              "RelativeDocumentMoniker": "AddingPlayer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\AddingPlayer.cs [Design]",
+              "RelativeToolTip": "AddingPlayer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T01:01:08.264Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddingPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\AddingPlayer.cs",
+              "RelativeDocumentMoniker": "AddingPlayer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\AddingPlayer.cs",
+              "RelativeToolTip": "AddingPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T12:24:48.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddingPlayer.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\AddingPlayer.Designer.cs",
+              "RelativeDocumentMoniker": "AddingPlayer.Designer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\AddingPlayer.Designer.cs",
+              "RelativeToolTip": "AddingPlayer.Designer.cs",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAlwCQBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:45:50.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Validation.cs",
+              "RelativeDocumentMoniker": "Validation.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Validation.cs",
+              "RelativeToolTip": "Validation.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T12:29:07.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchingPlayer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\SearchingPlayer.cs",
+              "RelativeDocumentMoniker": "SearchingPlayer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\SearchingPlayer.cs [Design]",
+              "RelativeToolTip": "SearchingPlayer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T01:01:28.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchingPlayer.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\SearchingPlayer.Designer.cs",
+              "RelativeDocumentMoniker": "SearchingPlayer.Designer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\SearchingPlayer.Designer.cs",
+              "RelativeToolTip": "SearchingPlayer.Designer.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAlwGsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T12:22:06.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\C#Final\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T00:55:37.96Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\bin\Debug\C#Final.exe.config
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\bin\Debug\C#Final.exe
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\bin\Debug\C#Final.pdb
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C#Final.csproj.AssemblyReference.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C_Final.AddingPlayer.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C_Final.Form1.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C_Final.Properties.Resources.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C_Final.SearchingPlayer.resources
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C#Final.csproj.GenerateResource.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C#Final.csproj.CoreCompileInputs.cache
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C#Final.exe
+C:\Users\andyh\OneDrive\Desktop\SE245-VS\C#Final\obj\Debug\C#Final.pdb
