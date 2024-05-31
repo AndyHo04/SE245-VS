@@ -43,7 +43,7 @@
             // txtTitle
             // 
             this.txtTitle.Location = new System.Drawing.Point(319, 55);
-            this.txtTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(4);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(264, 22);
             this.txtTitle.TabIndex = 0;
@@ -51,7 +51,7 @@
             // txtAuthorLast
             // 
             this.txtAuthorLast.Location = new System.Drawing.Point(960, 55);
-            this.txtAuthorLast.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAuthorLast.Margin = new System.Windows.Forms.Padding(4);
             this.txtAuthorLast.Name = "txtAuthorLast";
             this.txtAuthorLast.Size = new System.Drawing.Size(264, 22);
             this.txtAuthorLast.TabIndex = 2;
@@ -87,8 +87,8 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(648, 208);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSearch.Location = new System.Drawing.Point(514, 208);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(100, 28);
             this.btnSearch.TabIndex = 7;
@@ -99,8 +99,8 @@
             // dgvResults
             // 
             this.dgvResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvResults.Location = new System.Drawing.Point(36, 272);
-            this.dgvResults.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvResults.Location = new System.Drawing.Point(13, 273);
+            this.dgvResults.Margin = new System.Windows.Forms.Padding(4);
             this.dgvResults.Name = "dgvResults";
             this.dgvResults.RowHeadersWidth = 51;
             this.dgvResults.Size = new System.Drawing.Size(1447, 329);
@@ -139,7 +139,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtAuthorLast);
             this.Controls.Add(this.txtTitle);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SearchMgr";
             this.Text = "SearchMgr";
             ((System.ComponentModel.ISupportInitialize)(this.dgvResults)).EndInit();

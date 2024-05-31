@@ -51,7 +51,7 @@ namespace Week7_Sample3_WindowsVersion
                 txtEmail.Text = dr["Email"].ToString();
                 txtPages.Text = dr["Pages"].ToString();
                 txtBookmarkPage.Text = dr["BookmarkPage"].ToString();
-                lblEBook_ID.Text = dr["BookID"].ToString();
+                //lblEBook_ID.Text = dr["BookID"].ToString();
 
                 dtpDatePublished.Value = DateTime.Parse(dr["DatePublished"].ToString());
                 dtpDateRentalExpires.Value = DateTime.Parse(dr["DateRentalExpires"].ToString());

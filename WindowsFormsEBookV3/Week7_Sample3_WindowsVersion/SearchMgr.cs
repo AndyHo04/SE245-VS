@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,7 @@ namespace Week7_Sample3_WindowsVersion
             //Perform the search we created in EBook class and store the returned dataset
             DataSet ds = temp.SearchEBooks(txtTitle.Text, txtAuthorLast.Text, txtBookID.Text);
             //Perform the  we created in EBook class and store the returned dataset
-            
+           
             //Display data (dataset)
             dgvResults.DataSource = ds;                                  //point datagrid to dataset
             dgvResults.DataMember = ds.Tables["Ebooks_Temp"].ToString();     // What table in the dataset?
@@ -60,5 +61,8 @@ namespace Week7_Sample3_WindowsVersion
             Editor.ShowDialog();
         }
 
+        
+
+        
     }
 }

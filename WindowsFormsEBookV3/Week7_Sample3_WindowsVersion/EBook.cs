@@ -206,7 +206,7 @@ namespace Week_6_Sample1_DataValidation
 
             //My SQL command string to pull up one EBook's data
             string sqlString =
-           "SELECT * FROM EBook WHERE Book_ID = @BookID;";
+           "SELECT * FROM EBook WHERE BookID = @BookID;";
 
             //Tell the connection object the who, what, where, how
             conn.ConnectionString = strConn;

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\SearchMgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\Book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\EBook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +13,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\ValidationLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\ValidationLibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\SearchMgr.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\SearchMgr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Week7_Sample3_WindowsVersion\\SearchMgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +46,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "ValidationLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\ValidationLibrary.cs",
+              "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\ValidationLibrary.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\ValidationLibrary.cs",
+              "RelativeToolTip": "Week7_Sample3_WindowsVersion\\ValidationLibrary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:54:57.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Book.cs",
+              "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\Book.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Book.cs",
+              "RelativeToolTip": "Week7_Sample3_WindowsVersion\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:19:30.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchMgr.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.Designer.cs",
+              "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\SearchMgr.Designer.cs",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.Designer.cs",
+              "RelativeToolTip": "Week7_Sample3_WindowsVersion\\SearchMgr.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:05:14.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchMgr.resx",
+              "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.resx",
+              "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\SearchMgr.resx",
+              "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.resx",
+              "RelativeToolTip": "Week7_Sample3_WindowsVersion\\SearchMgr.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-16T14:05:12.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\Form1.Designer.cs",
@@ -42,51 +106,48 @@
               "RelativeToolTip": "Week7_Sample3_WindowsVersion\\Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T13:20:45.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:20:45.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Form1.cs",
               "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\Form1.cs",
               "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Form1.cs",
               "RelativeToolTip": "Week7_Sample3_WindowsVersion\\Form1.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAACkAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T13:19:56.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:19:56.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "SearchMgr.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.cs",
               "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\SearchMgr.cs",
               "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\SearchMgr.cs",
               "RelativeToolTip": "Week7_Sample3_WindowsVersion\\SearchMgr.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T13:16:20.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:16:20.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EBook.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\EBook.cs",
               "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\EBook.cs",
               "ToolTip": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\EBook.cs",
               "RelativeToolTip": "Week7_Sample3_WindowsVersion\\EBook.cs",
-              "ViewState": "AQIAALcAAAAAAAAAAAAAAMsAAAAqAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAPQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T12:55:50.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\andyh\\OneDrive\\Desktop\\SE245-VS\\WindowsFormsEBookV3\\Week7_Sample3_WindowsVersion\\Program.cs",
               "RelativeDocumentMoniker": "Week7_Sample3_WindowsVersion\\Program.cs",
@@ -94,8 +155,7 @@
               "RelativeToolTip": "Week7_Sample3_WindowsVersion\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T12:55:46.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T12:55:46.737Z"
             }
           ]
         }
